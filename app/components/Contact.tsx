@@ -1,4 +1,12 @@
 import React, { useState } from "react";
+import type { Route } from "../+types/root";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Contact" },
+    { name: "Contact Page", content: "Welcome to Contact Page!" },
+  ];
+} // Correct import for React Router
 
 const Contact = () => {
   const [formData, setFormData] = useState({

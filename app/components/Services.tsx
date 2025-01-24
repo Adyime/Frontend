@@ -1,5 +1,13 @@
 import React from "react";
-import { Link } from "react-router"; // Correct import for React Router
+import { Link } from "react-router";
+import type { Route } from "../+types/root";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Services" },
+    { name: "Service Page", content: "Welcome to Service Page!" },
+  ];
+} // Correct import for React Router
 
 const Services = () => {
   return (
