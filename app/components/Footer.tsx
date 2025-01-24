@@ -31,20 +31,20 @@ const Footer = () => {
             </h4>
             <ul>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/about"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/carrier"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
                   Careers
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
@@ -55,12 +55,12 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/termsAndConditions"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
                   Terms & Conditions
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -114,10 +114,10 @@ const Footer = () => {
             <ul>
               <li className="mb-2">
                 <a
-                  href="mailto:support@example.com"
+                  href="mailto:contact.adyime@gmail.com"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
-                  support@example.com
+                  contact.adyime@gmail.com
                 </a>
               </li>
               <li className="mb-2">
@@ -125,7 +125,7 @@ const Footer = () => {
                   href="tel:+1234567890"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
-                  +1 (234) 567-890
+                  +91 73035 56175
                 </a>
               </li>
               <li>
@@ -133,7 +133,8 @@ const Footer = () => {
                   href="#"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
-                  123 Business Street, City, Country
+                  Plot No 395 S-1 Sector 5 Vaishali, Ghaziabad, India, Uttar
+                  Pradesh
                 </a>
               </li>
             </ul>
@@ -146,7 +147,7 @@ const Footer = () => {
             </h4>
             <div className="flex space-x-6">
               <a
-                href="#"
+                href="https://www.facebook.com/share/p/19JzvcoWLg/"
                 className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
                 <FaFacebookF size={24} /> {/* React icon for Facebook */}
@@ -158,7 +159,7 @@ const Footer = () => {
                 <FaTwitter size={24} /> {/* React icon for Twitter */}
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/adyime__/"
                 className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
                 <FaInstagram size={24} /> {/* React icon for Instagram */}
@@ -175,8 +176,7 @@ const Footer = () => {
 
         <div className="mt-12 border-t border-gray-600 pt-6 text-center text-sm">
           <p className="text-gray-300">
-            &copy; {new Date().getFullYear()} Your Company Name. All Rights
-            Reserved.
+            &copy; {new Date().getFullYear()} Adyime. All Rights Reserved.
           </p>
         </div>
       </div>

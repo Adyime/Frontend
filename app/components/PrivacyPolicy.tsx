@@ -176,13 +176,13 @@ const PrivacyPolicy = () => {
           <p className="mt-2">
             Email:{" "}
             <a href="mailto:support@example.com" className="text-yellow-500">
-              support@example.com
+              contact.adyime@gmail.com
             </a>
           </p>
           <p>
             Phone:{" "}
             <a href="tel:+1234567890" className="text-yellow-500">
-              +1 (234) 567-890
+              +91 73035 56175{" "}
             </a>
           </p>
         </section>
