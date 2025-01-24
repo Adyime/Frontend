@@ -10,7 +10,7 @@ import { Link } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-16">
+    <footer className="bg-black   text-white py-16">
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
         {/* Logo and company info */}
         <div className="flex flex-col sm:flex-row justify-between items-center mb-12">

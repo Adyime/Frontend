@@ -9,6 +9,9 @@ import {
 
 import type { Route } from "./+types/root";
 import stylesheet from "./app.css?url";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Cta from "./components/Cta";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -58,8 +61,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </noscript>
         {/* End Meta Pixel Code */}
       </head>
-      <body>
+      <body className="w-full h-[120vh]  bg-[#fce300] text-black font-leagueSpartan">
+        <Navbar />
         {children}
+        <Cta />
+        <Footer />
         <ScrollRestoration />
         <Scripts />
       </body>

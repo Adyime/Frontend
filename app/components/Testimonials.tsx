@@ -7,35 +7,35 @@ import { Autoplay } from "swiper/modules"; // Importing Autoplay module
 
 const testimonials = [
   {
-    name: "John Doe",
+    name: "Aditya",
     title: "CEO at TechCorp",
     testimonial:
       "This service helped us grow our business exponentially. Highly recommended!",
     rating: 5,
   },
   {
-    name: "Jane Smith",
+    name: "Nitin",
     title: "Marketing Manager at BrandX",
     testimonial:
       "A game changer for our marketing strategy. Their support and solutions are top-notch.",
     rating: 4,
   },
   {
-    name: "Alice Johnson",
+    name: "Anurag Rawat",
     title: "Founder at StartupHub",
     testimonial:
       "The team went above and beyond. They transformed our vision into a reality.",
     rating: 5,
   },
   {
-    name: "Bob Martin",
-    title: "CTO at InnovateX",
+    name: "Nilesh Gupta",
+    title: "CMO at Madmen",
     testimonial:
       "Incredible support, we saw major improvements in our workflow",
     rating: 5,
   },
   {
-    name: "Emily Clark",
+    name: "Rahul",
     title: "Product Manager at AppWorks",
     testimonial:
       "This service made our project launch smooth and successful. Couldn't ask for more!",
