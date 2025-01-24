@@ -7,14 +7,27 @@ const HeroSection = () => {
         {/* Text Section */}
         <div>
           <h1 className="text-4xl md:text-6xl font-bold leading-tight text-black">
-            Hi, We make Websites that{" "}
-            <span className="text-red-600">Speaks!!</span>
+            Hi, We make Websites in just{" "}
+            <span className="text-red-600">7 </span>days!!
           </h1>
-          <p className="mt-6 text-lg md:text-xl text-black">
-            We specialize in custom websites, mobile apps, and software
-            solutions that help businesses succeed in the digital world.
-          </p>
-          <div className="mt-8 flex justify-center md:justify-start gap-4">
+          <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-4 md:gap-6">
+            <p className="text-lg md:text-xl text-black font-semibold">
+              ✵ E-Commerce
+            </p>
+            <p className="text-lg md:text-xl text-black font-semibold">
+              ✵ Portfolio
+            </p>
+            <p className="text-lg md:text-xl text-black font-semibold">
+              ✵ Landing Page
+            </p>
+            <p className="text-lg md:text-xl text-black font-semibold">
+              ✵ Informative Sites
+            </p>
+            <p className="text-lg md:text-xl text-black font-semibold">
+              ✵ Many More
+            </p>
+          </div>
+          <div className="mt-8 flex justify-center md:justify-start gap-4 flex-wrap">
             <Link
               to="/services"
               className="bg-white text-black hover:bg-black hover:text-white transition-all duration-300 py-3 px-6 rounded-lg text-lg font-semibold"
@@ -23,7 +36,7 @@ const HeroSection = () => {
             </Link>
             <Link
               to="/contact"
-              className=" bg-black text-white hover:bg-white-500 hover:text-black hover:bg-white transition-all duration-300  py-3 px-6 rounded-lg text-lg font-semibold"
+              className="bg-black text-white hover:bg-white-500 hover:text-black hover:bg-white transition-all duration-300 py-3 px-6 rounded-lg text-lg font-semibold"
             >
               Contact Now
             </Link>

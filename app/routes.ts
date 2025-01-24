@@ -8,4 +8,7 @@ export default [
   route("carrier", "./components/Carrier.tsx"),
   route("termsAndConditions", "./components/TermsAndConditions.tsx"),
   route("about", "./components/AboutUs.tsx"),
+  route("website", "./components/Website.tsx"),
+  route("marketing", "./components/DigitalMarketing.tsx"),
+  route("work", "./components/Work.tsx"),
 ] satisfies RouteConfig;
