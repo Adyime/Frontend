@@ -40,7 +40,7 @@ const Main = () => {
       {/* Sticky Call Icon */}
       <div className="fixed bottom-36 right-6 z-50">
         <a
-          href="tel:+7303556175"
+          href="tel:+91 7303556175"
           className="inline-flex items-center justify-center bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition duration-300"
         >
           <FiPhone className="text-3xl" /> {/* Phone Icon */}
