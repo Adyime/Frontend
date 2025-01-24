@@ -15,13 +15,16 @@ const FreeEbook = () => {
     setError(null);
 
     try {
-      const response = await fetch("http://localhost:5000/send-ebook-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
+      const response = await fetch(
+        "https://www.website.adyime.com/send-ebook-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
 
       if (response.ok) {
         setIsSubmitted(true);
