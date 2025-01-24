@@ -23,11 +23,11 @@ const PrivacyPolicy = () => {
               Introduction
             </h2>
             <p className="text-lg leading-relaxed">
-              Welcome to [Your Company Name]! We value your privacy and are
-              committed to protecting your personal data. This Privacy Policy
-              explains how we collect, use, disclose, and protect your
-              information when you visit our website, use our services, or
-              interact with us in other ways.
+              Welcome to Adyime! We value your privacy and are committed to
+              protecting your personal data. This Privacy Policy explains how we
+              collect, use, disclose, and protect your information when you
+              visit our website, use our services, or interact with us in other
+              ways.
             </p>
           </section>
 

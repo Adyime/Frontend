@@ -30,14 +30,13 @@ const AboutUs = () => {
             <FaUserTie className="text-6xl text-gray-800" />
           </div>
           <h3 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
-            Partner 1
+            Aditya Singh Rawat
           </h3>
           <p className="text-xl text-gray-600 mb-6 text-center">Role: CEO</p>
           <p className="text-lg text-gray-600 text-center">
-            Partner 1 is the visionary behind our company. With a strong
-            background in leadership and business strategy, they drive the
-            direction of our operations and help us stay ahead of industry
-            trends.
+            Aditya is the visionary behind our company. With a strong background
+            in leadership and business strategy, they drive the direction of our
+            operations and help us stay ahead of industry trends.
           </p>
         </div>
 
@@ -47,14 +46,14 @@ const AboutUs = () => {
             <FaCode className="text-6xl text-gray-800" />
           </div>
           <h3 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
-            Partner 2
+            Anurag Singh Rawat
           </h3>
           <p className="text-xl text-gray-600 mb-6 text-center">Role: CTO</p>
           <p className="text-lg text-gray-600 text-center">
-            Partner 2 is the technical mastermind behind our innovative
-            solutions. With a passion for technology and a background in
-            software engineering, they lead our technical teams to deliver
-            cutting-edge products.
+            Anurag is the technical mastermind behind our innovative solutions.
+            With a passion for technology and a background in software
+            engineering, they lead our technical teams to deliver cutting-edge
+            products.
           </p>
         </div>
 
@@ -64,14 +63,13 @@ const AboutUs = () => {
             <FaCogs className="text-6xl text-gray-800" />
           </div>
           <h3 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
-            Partner 3
+            Nitin Singh Rawat
           </h3>
-          <p className="text-xl text-gray-600 mb-6 text-center">Role: COO</p>
+          <p className="text-xl text-gray-600 mb-6 text-center">Role: CMO</p>
           <p className="text-lg text-gray-600 text-center">
-            Partner 3 oversees our operations and ensures everything runs
-            smoothly. Their background in business management allows them to
-            streamline processes, optimize efficiency, and enhance customer
-            satisfaction.
+            Nitin oversees our operations and ensures everything runs smoothly.
+            Their background in business management allows them to streamline
+            processes, optimize efficiency, and enhance customer satisfaction.
           </p>
         </div>
       </div>
