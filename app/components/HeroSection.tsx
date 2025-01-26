@@ -6,9 +6,9 @@ const HeroSection = () => {
       <div className="max-w-7xl w-full md:w-[50vw] lg:w-1/2 text-center md:text-left">
         {/* Text Section */}
         <div>
-          <h1 className="text-4xl md:text-6xl font-bold leading-tight text-black">
-            Hi, We make Websites in just{" "}
-            <span className="text-red-600">7 </span>days!!
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight  text-black">
+            Transforming Ideas Into Stunning{" "}
+            <span className="text-red-600">Websites—</span>Effortlessly
           </h1>
           <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-4 md:gap-6">
             <p className="text-lg md:text-xl text-black font-semibold">
