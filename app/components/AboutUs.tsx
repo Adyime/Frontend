@@ -46,7 +46,7 @@ const AboutUs = () => {
             <FaCode className="text-6xl text-gray-800" />
           </div>
           <h3 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
-            Anurag Singh Rawat
+            Anurag Rawat
           </h3>
           <p className="text-xl text-gray-600 mb-6 text-center">Role: CTO</p>
           <p className="text-lg text-gray-600 text-center">
@@ -63,7 +63,7 @@ const AboutUs = () => {
             <FaCogs className="text-6xl text-gray-800" />
           </div>
           <h3 className="text-3xl font-semibold text-gray-800 mb-4 text-center">
-            Nitin Singh Rawat
+            Nitin Rawat
           </h3>
           <p className="text-xl text-gray-600 mb-6 text-center">Role: CMO</p>
           <p className="text-lg text-gray-600 text-center">

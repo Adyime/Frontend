@@ -12,6 +12,7 @@ import Services from "./Services";
 import Work from "./Work";
 import WhyChooseUs from "./WhyChooseUs";
 import InquiryForm from "./InquiryForm";
+import ContactForm from "./Contact";
 
 const Main = () => {
   return (
@@ -22,7 +23,7 @@ const Main = () => {
       <WhyChooseUs />
       <Services />
       <Testimonials />
-      <Faq />
+      <ContactForm />
       <InquiryForm />
     </div>
   );
