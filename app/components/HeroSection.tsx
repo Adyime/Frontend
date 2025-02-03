@@ -7,7 +7,7 @@ const HeroSection = () => {
         {/* Text Section */}
         <div>
           <h1 className="text-5xl md:text-9xl font-bold leading-tight text-black">
-            Website at <span className="text-green-600">₹1999</span>
+            Website at <span className="text-green-600">₹4999</span>
           </h1>
           <div className="mt-6 flex flex-wrap justify-center gap-4">
             <p className="text-lg md:text-xl text-black font-semibold">
