@@ -117,7 +117,7 @@ const Footer = () => {
                   href="mailto:contact.adyime@gmail.com"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
-                  contact.adyime@gmail.com
+                  contact.adyime@gmail.com info@adyime.com
                 </a>
               </li>
               <li className="mb-2">
