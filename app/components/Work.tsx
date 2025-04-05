@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
 import { motion, useInView, useAnimation } from "framer-motion";
@@ -12,6 +12,7 @@ const Work = () => {
   const controls = useAnimation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const [swiperInstance, setSwiperInstance] = useState(null);
 
   useEffect(() => {
     if (isInView) {
@@ -70,6 +71,13 @@ const Work = () => {
         "A professional informative website to showcase events and drive subscriptions.",
       img: "/ev.png", // Replace with actual image path
       link: "https://dabasev.in/",
+    },
+
+    {
+      title: "Informative Website",
+      description: "A  Blog website to showcase events.",
+      img: "/law.png", // Replace with actual image path
+      link: "https://lexjudis.com/",
     },
   ];
 
@@ -130,8 +138,9 @@ const Work = () => {
             slidesPerView={1} // Default to 1 slide for small screens
             spaceBetween={10}
             autoplay={{
-              delay: 1000, // 1 second
-              disableOnInteraction: false, // Keeps autoplay active after manual navigation
+              delay: 2000, // 2 seconds
+              disableOnInteraction: false, // Keeps autoplay active after user interaction
+              pauseOnMouseEnter: true, // This is the key setting to pause on hover
             }}
             pagination={{
               clickable: true,
@@ -153,6 +162,7 @@ const Work = () => {
               },
             }}
             className="!overflow-visible"
+            onSwiper={setSwiperInstance}
           >
             {projects.map((project, index) => (
               <SwiperSlide key={index}>

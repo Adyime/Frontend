@@ -30,14 +30,14 @@ const Footer = () => {
               Company
             </h4>
             <ul>
-              <li>
+              {/* <li>
                 <Link
                   to="/about"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
                   About Us
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/carrier"
@@ -120,15 +120,15 @@ const Footer = () => {
                   contact.adyime@gmail.com info@adyime.com
                 </a>
               </li>
-              <li className="mb-2">
+              {/* <li className="mb-2">
                 <a
                   href="tel:+1234567890"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
                 >
                   +91 73035 56175
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                   href="#"
                   className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
@@ -136,7 +136,7 @@ const Footer = () => {
                   Plot No 395 S-1 Sector 5 Vaishali, Ghaziabad, India, Uttar
                   Pradesh
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -147,7 +147,7 @@ const Footer = () => {
             </h4>
             <div className="flex space-x-6">
               <a
-                href="https://www.facebook.com/share/p/19JzvcoWLg/"
+                // href="https://www.facebook.com/share/p/19JzvcoWLg/"
                 className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
                 <FaFacebookF size={24} /> {/* React icon for Facebook */}
@@ -159,7 +159,7 @@ const Footer = () => {
                 <FaTwitter size={24} /> {/* React icon for Twitter */}
               </a>
               <a
-                href="https://www.instagram.com/adyime__/"
+                // href="https://www.instagram.com/adyime__/"
                 className="text-gray-300 hover:text-yellow-400 transition-colors duration-300"
               >
                 <FaInstagram size={24} /> {/* React icon for Instagram */}

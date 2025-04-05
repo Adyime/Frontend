@@ -80,7 +80,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body className="w-full h-[120vh]  bg-[#fce300] text-black font-leagueSpartan">
         <Navbar />
         {children}
-        <Cta />
+        {/* <Cta /> */}
         <Footer />
         <ScrollRestoration />
         <Scripts />
